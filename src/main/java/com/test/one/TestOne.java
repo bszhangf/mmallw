@@ -7,4 +7,12 @@ public class TestOne {
         System.out.println("Hello World !!!");
 
     }
+
+    public int min(int x, int y){
+        if(x > y){
+            return y;
+        }else {
+            return x;
+        }
+    }
 }
